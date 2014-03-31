@@ -8,7 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <head>
+  <header>
     <div id="header-wrap">
       <h1><%= link_to "colcho.net", root_path %> </h1>
       <nav>
@@ -18,7 +18,7 @@
         </ul>
       </nav>
     </div>
-  </head>
+  </header>
   <div id="content">
     <% if notice.present? %>
       <p id="notice"><%= notice %> </p>
